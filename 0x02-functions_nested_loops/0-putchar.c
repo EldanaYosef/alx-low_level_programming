@@ -10,7 +10,7 @@ int main(void)
 
          int y;
 
-         for ( y = 0; y < 7; y++)
+         for ( y = 0; y < 8; y++)
           {
               _putchar(yosef[y]);
           }
