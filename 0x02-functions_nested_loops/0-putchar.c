@@ -6,14 +6,14 @@
  **/
 int main(void)
 {
-         char yosef[] = "_putchar";
+char yosef[] = "_putchar";
 
-         int y;
+int y;
 
-         for (y = 0; y < 8; y++)
-          {
-              _putchar(yosef[y]);
-          }
-          _putchar('\n');
-          return (0);
+for (y = 0; y < 8; y++)
+{
+_putchar(yosef[y]);
+}
+_putchar('\n');
+return (0);
 }
