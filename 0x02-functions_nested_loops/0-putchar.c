@@ -10,10 +10,10 @@ int main(void)
 
          int y;
 
-         for ( y = 0; y < 8; y++)
+         for (y = 0; y < 8; y++)
           {
               _putchar(yosef[y]);
           }
           _putchar('\n');
-          return(0);
+          return (0);
 }
