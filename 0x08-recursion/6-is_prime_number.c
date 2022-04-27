@@ -28,4 +28,4 @@ int check_prime(int n, int i)
 
 	if (n % i == 0 && i > 1)
 		return (0);
-
+}
