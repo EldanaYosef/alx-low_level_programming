@@ -1,10 +1,4 @@
-#include <stdio.h>
-/**
- * main - prints  name of file.
- * Return: always 0
- */
-int main(void)
-{
-	printf("%s\n", __FILE__);
-	return (0);
-}
+#ifndef ABS_VAL
+#define ABS_VAL
+#define ABS(x) ((x) < (0) ? ((x) * (-1)) : (x))
+#endif
